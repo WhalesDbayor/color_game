@@ -13,6 +13,7 @@ function startNewGame() {
     document.getElementById("colorBox").style.display = "none";
     document.getElementById("score").textContent = "0";
     score = 0;
+    document.getElementById("gameStatus").textContent = "";
     updateColorOptions();
 }
 
